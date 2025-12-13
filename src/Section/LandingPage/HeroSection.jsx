@@ -1,5 +1,5 @@
 import React from 'react'
-
+import heroimage from "../../assets/hero-driving.png"
 export default function HeroSection() {
   return (
     <section className="bg-white">
@@ -8,7 +8,7 @@ export default function HeroSection() {
         {/* Left Content */}
         <div className="flex-1">
           {/* Logo & Brand */}
-          <div className="flex items-center gap-3 mb-6">
+          {/* <div className="flex items-center gap-3 mb-6">
             <div className="text-blue-600 text-3xl font-bold">
               🕉️
             </div>
@@ -20,7 +20,7 @@ export default function HeroSection() {
                 DRIVING SCHOOL
               </p>
             </div>
-          </div>
+          </div> */}
 
           {/* Heading */}
           <h2 className="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-6">
@@ -37,7 +37,7 @@ export default function HeroSection() {
         {/* Right Illustration */}
         <div className="flex-1 flex justify-center">
           <img
-            src="/hero-driving.png"
+            src={heroimage}
             alt="Driving Illustration"
             className="max-w-md w-full"
           />
