@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import About from '../Section/LandingPage/About'
 import OurCourses from '../Section/LandingPage/OurCourses'
 import Instructor from '../Section/LandingPage/Instructor'
+import Founder from '../Section/LandingPage/Founder'
 
 function LandingPage() {
   return (
@@ -11,7 +12,8 @@ function LandingPage() {
         <HomeSection/>
         <About/> 
         <OurCourses/>
-        <Instructor/>   
+        <Instructor/>
+        <Founder/>   
     </Layout>
   )
 }
