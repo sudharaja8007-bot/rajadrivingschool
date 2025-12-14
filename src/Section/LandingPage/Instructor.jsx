@@ -17,11 +17,11 @@ export default function Instructor() {
 
             {/* IMAGE CIRCLE */}
             <div className="absolute -top-16 left-1/2 -translate-x-1/2">
-              <div className="w-32 h-32 rounded-full bg-blue-600 flex items-center justify-center">
+              <div className="w-42 h-42 rounded-full bg-blue-600 flex items-center justify-center">
                 <img
                   src={instructorImg}
                   alt="Instructor"
-                  className="w-28 h-28 rounded-full object-cover bg-white"
+                  className="w-38 h-38 rounded-full object-cover bg-white"
                 />
               </div>
             </div>
@@ -52,7 +52,7 @@ export default function Instructor() {
             </p>
 
             <h4 className="font-semibold text-gray-800">
-              – James Wilson
+              – Dheenadhayalan
             </h4>
 
             <p className="text-sm text-gray-500">

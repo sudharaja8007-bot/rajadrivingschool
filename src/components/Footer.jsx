@@ -58,9 +58,12 @@ export default function Footer() { // change logo here
           <div>
             <h3 className="text-white font-semibold mb-4">Contact</h3>
             <ul className="space-y-3 text-sm">
-              <li>📍 Chennai, India</li>
-              <li>📞 +91 98765 43210</li>
-              <li>✉️ info@rajadshool.com</li>
+              <li>📍 1/143 ENDAPATTI,<br/>
+                SUGAR MILL POST, <br>
+                </br>PALACODE,DHARMAPURI, <br/>
+                TAMILNDE-636808</li>
+              <li>📞 +91 9443614199, +91 9597658007</li>
+              <li>✉️ rajadrivingschool@gmail.com</li>
             </ul>
           </div>
 
@@ -69,7 +72,7 @@ export default function Footer() { // change logo here
         {/* Divider */}
         <div className="border-t border-gray-700 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-400">
           <p>
-            © {new Date().getFullYear()} Raja DShool. All rights reserved.
+            © {new Date().getFullYear()} Raja Driving Shool. All rights reserved.
           </p>
           <p className="mt-3 md:mt-0">
             Designed with ❤️ for safe driving
