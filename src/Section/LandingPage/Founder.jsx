@@ -26,7 +26,7 @@ export default function Founder() {
           {/* CONTENT SIDE */}
           <div>
             <h3 className="text-3xl font-semibold text-gray-800 mb-2">
-              Raja C & Priya Raja
+              Raja C & Sudha Raja
             </h3>
 
             <p className="text-blue-600 font-medium mb-6">
@@ -35,7 +35,7 @@ export default function Founder() {
 
             <p className="text-gray-700 leading-relaxed mb-5">
               Raja Driving School was founded by <strong>Raja C</strong> and
-              <strong> Priya Raja</strong>, a husband-and-wife team driven by a
+              <strong> Sudha Raja</strong>, a husband-and-wife team driven by a
               shared passion for road safety and quality driver education.
             </p>
 
