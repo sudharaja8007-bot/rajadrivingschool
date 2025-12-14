@@ -4,10 +4,10 @@ import heroimage from "../../assets/hero-driving.png";
 export default function HeroSection() {
   return (
     <section className="bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-16 flex flex-col-reverse lg:flex-row items-center gap-12">
+      <div className="max-w-7xl mx-auto  py-16 flex flex-col-reverse lg:flex-row items-center gap-12">
 
         {/* LEFT CONTENT */}
-        <div className="flex-1 md:w-1/2">
+        <div className="flex-1 md:w-1/2 px-6 xl:px-0 ">
           <h2 className="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-6">
             Start your driving journey <br />
             <span className="text-blue-600">the right way</span>
